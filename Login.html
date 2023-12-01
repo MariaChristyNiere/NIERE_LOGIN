@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://localhost:19006/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style id="react-native-stylesheet"></style>
+    
+    <meta httpequiv="X-UA-Compatible" content="IE=edge">
+    <!-- 
+      This viewport works for phones with notches.
+      It's optimized for gestures by disabling global zoom.
+     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1.00001, viewport-fit=cover">
+    <title>Login</title>
+    <style>
+      /**
+       * Extend the react-native-web reset:
+       * https://github.com/necolas/react-native-web/blob/master/packages/react-native-web/src/exports/StyleSheet/initialRules.js
+       */
+      html,
+      body,
+      #root {
+        width: 100%;
+        /* To smooth any scrolling behavior */
+        -webkit-overflow-scrolling: touch;
+        margin: 0px;
+        padding: 0px;
+        /* Allows content to fill the viewport and go beyond the bottom */
+        min-height: 100%;
+      }
+      #root {
+        flex-shrink: 0;
+        flex-basis: auto;
+        flex-grow: 1;
+        display: flex;
+        flex: 1;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        /* Prevent text size change on orientation change https://gist.github.com/tfausak/2222823#file-ios-8-web-app-html-L138 */
+        -webkit-text-size-adjust: 100%;
+        height: calc(100% + env(safe-area-inset-top));
+      }
+
+      body {
+        display: flex;
+        /* Allows you to scroll below the viewport; default value is visible */
+        overflow-y: auto;
+        overscroll-behavior-y: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -ms-overflow-style: scrollbar;
+      }
+      /* Enable for apps that support dark-theme */
+      /*@media (prefers-color-scheme: dark) {
+        body {
+          background-color: black;
+        }
+      }*/
+    </style>
+  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:19006/favicon-16.png"><link rel="icon" type="image/png" sizes="32x32" href="http://localhost:19006/favicon-32.png"><link rel="shortcut icon" href="http://localhost:19006/favicon.ico"><script defer="" src="./Login_files/bundle.js.download"></script></head>
+
+  <body>
+    <!-- 
+      A generic no script element with a reload button and a message.
+      Feel free to customize this however you'd like.
+    -->
+    <noscript>
+      <form
+        action=""
+        style="
+          background-color: #fff;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 9999;
+        "
+      >
+        <div
+          style="
+            font-size: 18px;
+            font-family: Helvetica, sans-serif;
+            line-height: 24px;
+            margin: 10%;
+            width: 80%;
+          "
+        >
+          <p>Oh no! It looks like JavaScript is not enabled in your browser.</p>
+          <p style="margin: 20px 0;">
+            <button
+              type="submit"
+              style="
+                background-color: #4630eb;
+                border-radius: 100px;
+                border: none;
+                box-shadow: none;
+                color: #fff;
+                cursor: pointer;
+                font-weight: bold;
+                line-height: 20px;
+                padding: 6px 16px;
+              "
+            >
+              Reload
+            </button>
+          </p>
+        </div>
+      </form>
+    </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"><div class="css-view-175oi2r r-flex-13awgt0"><div class="css-view-175oi2r r-flex-13awgt0"><div class="css-view-175oi2r" style="flex: 1 1 0%; background-color: rgb(242, 242, 242);"><div class="css-view-175oi2r r-flex-13awgt0"><div class="css-view-175oi2r r-bottom-1p0dtai r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv" style="display: none;"><div class="css-view-175oi2r" style="opacity: 1;"></div><div class="css-view-175oi2r r-bottom-1p0dtai r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv" style="display: none; overflow: hidden;"><div class="css-view-175oi2r r-bottom-1p0dtai r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv"></div><div class="css-view-175oi2r r-flex-13awgt0 r-pointerEvents-12vffkv"><div class="css-view-175oi2r r-flex-13awgt0"><div class="css-view-175oi2r r-minHeight-2llsf r-pointerEvents-12vffkv" style="background-color: rgb(242, 242, 242);"><div class="css-view-175oi2r r-flex-13awgt0 r-flexDirection-1d5kdc7"><div class="css-view-175oi2r r-flex-13awgt0"><div class="css-view-175oi2r r-alignItems-1awozwy r-backgroundColor-6li5bh r-flex-13awgt0 r-justifyContent-1777fci r-padding-1pcd2l5"><div dir="auto" class="css-text-146c3p1 r-color-jwli3a r-fontSize-1x35g6 r-fontWeight-vw2c0b r-marginBottom-117bsoe">Welcome to Your App</div><button role="button" class="css-view-175oi2r r-transitionProperty-1i6wzkk r-userSelect-lrvibr r-cursor-1loqt21 r-touchAction-1otgn73 r-backgroundColor-14sbq61 r-borderRadius-1jkafct" type="button" style="transition-duration: 0.25s;"><div dir="auto" class="css-text-146c3p1 r-color-jwli3a r-fontWeight-majxgm r-padding-edyy15 r-textAlign-q4m81j r-textTransform-tsynxw">Go to Login</div></button></div></div><div class="css-view-175oi2r r-pointerEvents-12vffkv"></div></div></div></div></div></div></div><div class="css-view-175oi2r r-bottom-1p0dtai r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv" style="display: flex;"><div class="css-view-175oi2r" style="opacity: 1;"></div><div class="css-view-175oi2r r-bottom-1p0dtai r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv" style="display: flex;"><div class="css-view-175oi2r r-bottom-1p0dtai r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv"></div><div class="css-view-175oi2r r-flex-13awgt0 r-pointerEvents-12vffkv"><div class="css-view-175oi2r r-flex-13awgt0"><div class="css-view-175oi2r r-minHeight-2llsf r-pointerEvents-12vffkv" style="background-color: rgb(242, 242, 242);"><div class="css-view-175oi2r r-flex-13awgt0 r-flexDirection-1d5kdc7"><div class="css-view-175oi2r r-flex-13awgt0"><div class="css-view-175oi2r r-alignItems-1awozwy r-backgroundColor-6li5bh r-borderRadius-1f0042m r-flex-13awgt0 r-justifyContent-1777fci r-padding-1pcd2l5 r-width-13qz1uu"><div class="css-view-175oi2r r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010 r-maxWidth-146iojx r-width-13qz1uu" style="height: 349.2px;"><div class="css-view-175oi2r r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw r-backgroundSize-ehq7j7" style="background-image: url(&quot;/static/media/logo.f40c8619bf9ffb22ee54.png&quot;);"></div><img alt="" draggable="false" src="./Login_files/logo.f40c8619bf9ffb22ee54.png" class="css-accessibilityImage-9pa8cd"></div><div dir="auto" class="css-text-146c3p1 r-color-jwli3a r-fontSize-1ra0lkn r-fontWeight-1od2jal">LogIn to your account</div><div class="css-view-175oi2r r-width-13qz1uu"><input placeholder="Username" autocapitalize="sentences" autocomplete="on" autocorrect="on" dir="auto" rows="1" spellcheck="true" class="css-textinput-11aywtz r-placeholderTextColor-6taxm2 r-backgroundColor-14lw9ot r-borderRadius-1f0042m r-borderWidth-d045u9 r-marginBlock-bplmwz r-padding-1uu6nss r-paddingInline-1ubuhtd r-width-13qz1uu" value="" style="border-color: rgb(0, 144, 158);"></div><div class="css-view-175oi2r r-width-13qz1uu"><input placeholder="Password" autocapitalize="sentences" autocomplete="on" autocorrect="on" dir="auto" rows="1" spellcheck="true" type="password" class="css-textinput-11aywtz r-placeholderTextColor-6taxm2 r-backgroundColor-14lw9ot r-borderRadius-1f0042m r-borderWidth-d045u9 r-marginBlock-bplmwz r-padding-1uu6nss r-paddingInline-1ubuhtd r-width-13qz1uu" value="" style="border-color: rgb(0, 144, 158);"></div><div tabindex="0" class="css-view-175oi2r r-cursor-1loqt21 r-touchAction-1otgn73 r-alignItems-1awozwy r-width-1akxima r-backgroundColor-qm2mv5 r-borderRadius-1jkafct r-marginBlock-bplmwz r-padding-1sp51qo"><div dir="auto" class="css-text-146c3p1 r-color-15lmidj r-fontWeight-vw2c0b">Log In</div></div><div tabindex="0" class="css-view-175oi2r r-cursor-1loqt21 r-touchAction-1otgn73 r-alignItems-1awozwy r-width-1akxima r-marginBlock-5o2xco"><div dir="auto" class="css-text-146c3p1 r-color-howw7u">Forgot Password?</div></div><div tabindex="0" class="css-view-175oi2r r-cursor-1loqt21 r-touchAction-1otgn73 r-alignItems-1awozwy r-width-1akxima r-marginBlock-5o2xco"><div dir="auto" class="css-text-146c3p1 r-color-howw7u">Don't have an account? Register here.</div></div></div></div><div class="css-view-175oi2r r-pointerEvents-12vffkv"><div class="css-view-175oi2r r-pointerEvents-12vffkv"><div class="css-view-175oi2r r-bottom-1p0dtai r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv" style="z-index: 0;"><div class="css-view-175oi2r r-borderBottomWidth-qklmqi r-flex-13awgt0" style="box-shadow: rgb(216, 216, 216) 0px 0px 0px; background-color: rgb(255, 255, 255); border-bottom-color: rgb(216, 216, 216);"></div></div><div class="css-view-175oi2r r-pointerEvents-12vffkv" style="height: 64px;"><div class="css-view-175oi2r r-pointerEvents-633pao" style="height: 0px;"></div><div class="css-view-175oi2r r-alignItems-1oszu61 r-flex-13awgt0 r-flexDirection-18u37iz r-pointerEvents-12vffkv"><div class="css-view-175oi2r r-alignItems-1habvwh r-justifyContent-1777fci r-pointerEvents-12vffkv" style="margin-left: 0px;"><button aria-label="LandingPage, back" role="button" tabindex="0" class="css-view-175oi2r r-cursor-1loqt21 r-touchAction-1otgn73 r-alignItems-1awozwy r-flexDirection-18u37iz r-marginBlock-n5f61p r-marginInline-jdiy1a r-minWidth-60vfwk" type="button" style="opacity: 1;"><div class="css-view-175oi2r r-flexBasis-1mlwlqe r-overflow-1udh08x r-zIndex-417010 r-height-1472mwg r-margin-1bq2mok r-transform-nygpdh r-width-lrsllp"><div class="css-view-175oi2r r-backgroundColor-1niwhzg r-backgroundPosition-vvn4in r-backgroundRepeat-u6sd8q r-bottom-1p0dtai r-height-1pi2tsx r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-width-13qz1uu r-zIndex-1wyyakw r-backgroundSize-ehq7j7" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAAAlklEQVR4Ae3a1REDMRDG4A3VmHbcUFLigf0exn/mkxuQjmELAAAAAD5Eq5atP6+rZeuPhGz9kZCtPxKy9fs6Zuuf60CfPn369OnTp0+fPn369OnTfx36X1vh+nO6/pytL+D1BCexy+iNhFPt6/dIOEiQIEGCBAkSJEiQ8B0k+PwoQYKhP2OXAYOvRo+vD38bvwcAAACABXF8ILs1PQqpAAAAAElFTkSuQmCC&quot;); filter: url(&quot;#tint-75&quot;);"></div><img alt="" draggable="false" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAAAlklEQVR4Ae3a1REDMRDG4A3VmHbcUFLigf0exn/mkxuQjmELAAAAAD5Eq5atP6+rZeuPhGz9kZCtPxKy9fs6Zuuf60CfPn369OnTp0+fPn369OnTfx36X1vh+nO6/pytL+D1BCexy+iNhFPt6/dIOEiQIEGCBAkSJEiQ8B0k+PwoQYKhP2OXAYOvRo+vD38bvwcAAACABXF8ILs1PQqpAAAAAElFTkSuQmCC" class="css-accessibilityImage-9pa8cd"><svg style="position: absolute; height: 0px; visibility: hidden; width: 0px;"><defs><filter id="tint-75"><feflood flood-color="rgb(28, 28, 30)"></feflood><fecomposite in2="SourceAlpha" operator="atop"></fecomposite></filter></defs></svg></div></button></div><div class="css-view-175oi2r r-justifyContent-1777fci r-marginInline-1xpp3t0 r-pointerEvents-12vffkv" style="max-width: 312px;"><h1 dir="auto" aria-level="1" role="heading" class="css-text-146c3p1 r-maxWidth-dnmrzs r-overflow-1udh08x r-textOverflow-1udbk01 r-whiteSpace-3s2u2q r-wordWrap-1iln25a r-fontSize-1i10wst r-fontWeight-majxgm" style="color: rgb(28, 28, 30);">Login</h1></div><div class="css-view-175oi2r r-alignItems-obd0qt r-justifyContent-1777fci r-flexBasis-1iusvr4 r-flexGrow-16y2uox r-pointerEvents-12vffkv" style="margin-right: 0px;"></div></div></div></div></div></div></div></div></div></div></div></div><div class="css-view-175oi2r r-zIndex-184en5c r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af r-pointerEvents-12vffkv" style="height: 64px;"></div></div></div></div></div>
+  
+
+<div style="position: fixed; left: 0px; top: 0px; width: 0px; height: 0px; z-index: -1; overflow: hidden; visibility: hidden; transition-duration: 0.05s; transition-property: padding; transition-delay: 0s; padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right);"></div></body></html>
